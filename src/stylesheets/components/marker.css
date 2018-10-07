@@ -1,0 +1,8 @@
+.marker {
+  border-radius: 6px;
+  height: 10px;
+  width: 10px;
+  border: solid transparent 1px;
+
+  background-color: #444;
+}
