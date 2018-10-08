@@ -10,7 +10,7 @@ export class Sidebar extends Component {
     this.state = {
       fillInput: new Input({
         target: "background-color",
-        label: "Fill",
+        label: "Fill color",
         onChange: change => this.applyChange(change)
       }),
       borderColorInput: new Input({
@@ -32,9 +32,14 @@ export class Sidebar extends Component {
 
   render() {
     return `<div class="m-editor">
-              ${this.state.fillInput.render()}
-              ${this.state.borderColorInput.render()}
-              ${this.state.sizeInput.render()}
+              <div class="m-editor__index">1</div>
+              <div class="m-editor__content">
+                <h2 class="m-editor__title">Style</h2>
+                <p class="m-editor__subtitle">Change the visualization</p>
+                ${this.state.fillInput.render()}
+                ${this.state.borderColorInput.render()}
+                ${this.state.sizeInput.render()}
+              </div>
             </div>`;
   }
 }

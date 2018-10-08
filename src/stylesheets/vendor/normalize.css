@@ -34,6 +34,14 @@ h1 {
   margin: 0.67em 0;
 }
 
+/**
+ * Correct the margin on `h2`
+ */
+
+h2 {
+  margin: 0;
+}
+
 /* Grouping content
    ========================================================================== */
 
@@ -166,7 +174,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -176,7 +185,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 

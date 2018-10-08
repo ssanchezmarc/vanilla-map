@@ -1,4 +1,38 @@
 .m-editor {
   display: flex;
+}
+
+.m-editor__index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23px;
+  width: 23px;
+  border: 1px solid #ddd;
+  font-size: 10px;
+  margin-right: 8px;
+
+  border-radius: 4px;
+  color: #979ea1;
+}
+
+.m-editor__content {
+  display: flex;
   flex-direction: column;
+  flex: 1;
+}
+
+.m-editor__title {
+  font-size: 16px;
+  line-height: 22px;
+
+  font-family: Open Sans;
+}
+
+.m-editor__subtitle {
+  font-size: 10px;
+
+  font-family: Open Sans;
+  text-transform: uppercase;
+  color: #979ea1;
 }
